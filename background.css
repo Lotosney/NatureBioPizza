@@ -1,36 +1,61 @@
-
-
-.tomatoleave1-container {
-  display: flex;
-  width: 10%;
-  height: 150px;
-  margin-left: -32px;
-  z-index: -1;
+body{
+    margin: 0px;
+    background-color: #E9E9E9;
 }
-.tomatoleave1 {
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
-
-  background-image: url(assets/tomatoleave.png);
-  transform: rotate(172deg);
-}
-
-
-.tomato1-container{
+.main-container{
+    height:1180px;
     display: flex;
-    width:  10%;
+    flex-direction: row;
+}
+
+.non-pizza{
+    height: 100%;
+    width:55%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.upper-non-pizza{
+    height:300px;
+    width:100%;
+
+    display: flex;
+    flex-direction: row;
+   
+}
+.tomatoleave1-container {
+    display: flex;
+    width: 20%;
+    height: 150px;
+    margin-left: -32px;
+
+  }
+  .tomatoleave1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-image: url(assets/tomatoleave.png);
+    transform: rotate(172deg);
+  }
+  .upper-non-pizza-filler{
+    display: flex;
+    width: 70%;
+    height: 100%;
+  }
+  .tomato1-container{
+    display: flex;
+    width:  15%;
     height: 210px;
-    margin-right: 50%;
-    margin-left: 40%;
-    z-index: -1;
+
+    
 }
 .tomato1-vector{
     background-image: url(assets/vector-tomato1-firstview.svg);
     height: 100%;
     width: 100%;
-    z-index: -1;
+    margin-top: 65%;
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -42,6 +67,74 @@
     margin-top: 40px;
     margin-bottom: 40px;
     margin-left: 20%;
-    position:inherit;
+   
     background-image: url(assets/tomato1.png);
 }
+
+
+.middle-non-pizza{
+    display: flex;
+    height:400px;
+    width:100%;
+    flex-direction: column;
+
+}
+.lower-non-pizza{
+    display: flex;
+    height: 580px;
+    width: 100%;
+    flex-direction: column;
+
+}
+.info-container{
+    height:300px;
+  
+}
+.info-vector{
+    background-image: url(assets/vector-info.png);
+    height:100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+}
+
+.tomatoes-group{
+    background-image: url(assets/tomatoesgroup.png);
+    height: 50%;
+    width: 50%;
+    margin-left:48%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute
+  }
+.pizza{
+    height: 100%;
+    width:45%;
+    display: flex;
+   
+}
+.pizza-vector-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+  }
+.pizza-vector{
+    display: flex;
+    background-image: url(assets/bigpizzavector.svg);
+    height: 100%;
+    width: 100%;
+    margin-right: 0px;
+    margin-left:30%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .bg-pizza{
+    display: flex;
+    background-image: url(assets/bigpizza.png);
+    height: 1000px;
+    margin-left: 8%;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }

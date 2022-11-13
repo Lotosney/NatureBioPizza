@@ -1,3 +1,5 @@
+@import "background.css";
+
 .sitelogo{
     position: absolute;
 width: 165px;
@@ -13,4 +15,59 @@ line-height: 29px;
 
 color: #000000;
 
+}
+
+.title-container{
+    display: flex;
+ width:60%
+}
+.subtitle-container{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+}
+h1{
+
+
+font-family: 'Kaisei Decol';
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 80px;
+
+
+letter-spacing: -0.24px;
+
+color: #000000;
+}
+
+h2{
+    margin: 0%;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+color: #333333;
+}
+
+img{
+   width: 50px;
+height: 50px;
+
+}
+.phone-container{
+    margin-top: 62px;
+    margin-left: 10%;
+    text-align:center
+}
+.navigation-container{
+    margin-top: 60px;
+    margin-left: 8%;
+    text-align:center
+}
+.opening-container{
+    margin-top: 60px;
+    margin-left: 8%;
+    text-align:center
 }
