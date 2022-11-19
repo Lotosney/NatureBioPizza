@@ -101,9 +101,10 @@ body{
 
 .tomatoes-group{
     background-image: url(assets/tomatoesgroup.png);
-    height: 50%;
-    width: 50%;
+    height: 40%;
+    width: 40%;
     margin-left:48%;
+    margin-top: -10%;
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute
