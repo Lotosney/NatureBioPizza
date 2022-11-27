@@ -29,45 +29,104 @@ color: #000000;
 h1{
 
 
-font-family: 'Kaisei Decol';
-font-style: normal;
-font-weight: 500;
-font-size: 64px;
-line-height: 80px;
-
-
-letter-spacing: -0.24px;
-
-color: #000000;
+    position: absolute;
+    width: 1301px;
+    height: 207px;
+    left: 62px;
+    top: 302px;
+    
+    /* H2_1920x1080 */
+    
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 76px;
+    line-height: 104px;
+    /* or 136% */
+    
+    letter-spacing: -0.24px;
+    
+    color: #000000;
 }
 
 h2{
-    margin: 0%;
-font-family: 'Lato';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 32px;
-color: #333333;
+    position: absolute;
+    width: 762px;
+    height: 75px;
+    left: 63px;
+    top: 544px;
+    
+  
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    /* or 160% */
+    
+    
+    /* Gray 1 */
+    
+    color: #333333;
 }
 
+p{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 153% */
+
+letter-spacing: 0.5px;
+}
 img{
    width: 50px;
 height: 50px;
 
 }
-.phone-container{
-    margin-top: 62px;
-    margin-left: 10%;
-    text-align:center
+.phone-img{
+    position: absolute;
+left: 125px;
+top:811px;
+
 }
-.navigation-container{
-    margin-top: 60px;
-    margin-left: 8%;
-    text-align:center
+p.phone{
+    position: absolute;
+width: 105px;
+height: 24px;
+left: 101px;
+top: 864px;
 }
-.opening-container{
-    margin-top: 60px;
-    margin-left: 8%;
-    text-align:center
+.navigation-img{
+    position: absolute;
+left: 280px;
+top:811px;
+
+
+}
+
+p.adress{
+    position: absolute;
+width: 160px;
+height: 59px;
+left: 251px;
+top: 864px;
+
+}
+.clock-img{
+    position: absolute;
+left: 480px;
+top:811px;
+
+}
+p.opening-hrs{
+    position: absolute;
+width: 186px;
+height: 48px;
+left: 444px;
+top: 865px;
+
+
 }
