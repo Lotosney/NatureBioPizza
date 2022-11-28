@@ -2,19 +2,16 @@ body {
   margin: 0px;
   background-color: #e9e9e9;
 }
-.background{
-    z-index: -10;
+.background {
+  z-index: -10;
 }
-.tomato-leaf{
-    position: absolute;
-width: 200.97px;
-height: 110.73px;
-left: -10px;
-top: 150.7px;
-
-
-transform: rotate(172deg);
-
+.tomato-leaf {
+  position: absolute;
+  width: 200.97px;
+  height: 110.73px;
+  left: -10px;
+  top: 150.7px;
+  transform: rotate(172deg);
 }
 .tomato1-vector {
   position: absolute;
@@ -103,37 +100,37 @@ transform: rotate(172deg);
   left: 1310px;
   top: 2185px;
 }
-.behind-order-vector{
-    position: absolute;
-width: 182px;
-height: 194px;
-left: 786px;
-top: 2378px;
+.behind-order-vector {
+  position: absolute;
+  width: 182px;
+  height: 194px;
+  left: 786px;
+  top: 2378px;
 }
 
-.behind-order-leaf{
-    position: absolute;
-/* width: 657px;
+.behind-order-leaf {
+  position: absolute;
+  /* width: 657px;
 height: 850px; */
-width: 936px;
-height: 1404px;
-left: 200px;
-top: 2400px;
-transform: rotate(116deg);
+  width: 936px;
+  height: 1404px;
+  left: 200px;
+  top: 2400px;
+  transform: rotate(116deg);
 }
 
-.behind-gallery-vector{
-    position: absolute;
-width: 604px;
-height: 643px;
-left: 822px;
-top: 3314px;
+.behind-gallery-vector {
+  position: absolute;
+  width: 604px;
+  height: 643px;
+  left: 822px;
+  top: 3314px;
 }
-.lowest-leaf{
-    position: absolute;
-width: 675.8px;
-height: 891.91px;
-left: 245px;
-top: 5026.83px;
-transform: rotate(-18deg);
+.lowest-leaf {
+  position: absolute;
+  width: 675.8px;
+  height: 891.91px;
+  left: 245px;
+  top: 5026.83px;
+  transform: rotate(-18deg);
 }
