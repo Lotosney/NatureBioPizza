@@ -1,132 +1,199 @@
 @import "background.css";
 
-.sitelogo{
-    position: absolute;
-width: 165px;
-height: 28px;
-left: 62px;
-top: 29px;
+.sitelogo {
+  position: absolute;
+  width: 165px;
+  height: 28px;
+  left: 62px;
+  top: 29px;
 
-font-family: 'Kaisei Decol';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 29px;
+  font-family: "Kaisei Decol";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
 
-color: #000000;
-
+  color: #000000;
 }
 
-.title-container{
-    display: flex;
- width:60%
+.title-container {
+  display: flex;
+  width: 60%;
 }
-.subtitle-container{
-    display: flex;
-    width: 80%;
-    flex-direction: column;
+.subtitle-container {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
 }
-h1{
+h1 {
+  position: absolute;
+  width: 1301px;
+  height: 207px;
+  left: 62px;
+  top: 302px;
 
+  /* H2_1920x1080 */
 
-    position: absolute;
-    width: 1301px;
-    height: 207px;
-    left: 62px;
-    top: 302px;
-    
-    /* H2_1920x1080 */
-    
-    font-family: 'Kaisei Decol';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 76px;
-    line-height: 104px;
-    /* or 136% */
-    
-    letter-spacing: -0.24px;
-    
-    color: #000000;
+  font-family: "Kaisei Decol";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 76px;
+  line-height: 104px;
+  /* or 136% */
+
+  letter-spacing: -0.24px;
+
+  color: #000000;
 }
+h1.how-to-order {
+  position: absolute;
+  width: 542px;
+  height: 67px;
+  left: 64px;
+  top: 2209px;
 
-h2{
-    position: absolute;
-    width: 762px;
-    height: 75px;
-    left: 63px;
-    top: 544px;
-    
-  
-    
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
-    /* or 160% */
-    
-    
-    /* Gray 1 */
-    
-    color: #333333;
+  font-family: "Kaisei Decol";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 51px;
+  /* or 85% */
+
+  letter-spacing: -0.24px;
 }
 
-p{
-    font-family: 'Lato';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-/* or 153% */
+h2 {
+  position: absolute;
+  width: 762px;
+  height: 75px;
+  left: 63px;
+  top: 544px;
 
-letter-spacing: 0.5px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  /* or 160% */
+
+  /* Gray 1 */
+
+  color: #333333;
 }
-img{
-   width: 50px;
-height: 50px;
+h3 {
+  font-family: "Kaisei Decol";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 102px;
+  line-height: 86px;
+  /* or 85% */
 
+  letter-spacing: -0.24px;
+
+  color: #edb178;
 }
-.phone-img{
-    position: absolute;
-left: 125px;
-top:811px;
-
-}
-p.phone{
-    position: absolute;
-width: 105px;
-height: 24px;
-left: 101px;
-top: 864px;
-}
-.navigation-img{
-    position: absolute;
-left: 280px;
-top:811px;
-
-
+h3.number-one {
+  position: absolute;
+  width: 164px;
+  height: 136px;
+  left: 64px;
+  top: 2381px;
 }
 
-p.adress{
-    position: absolute;
-width: 160px;
-height: 59px;
-left: 251px;
-top: 864px;
-
+h3.number-two {
+  position: absolute;
+  width: 116px;
+  height: 68px;
+  left: 851px;
+  top: 2381px;
 }
-.clock-img{
-    position: absolute;
-left: 480px;
-top:811px;
-
+h3.number-three {
+  position: absolute;
+  width: 131px;
+  height: 90px;
+  left: 1586px;
+  top: 2381px;
 }
-p.opening-hrs{
-    position: absolute;
-width: 186px;
-height: 48px;
-left: 444px;
-top: 865px;
 
+h6 {
+  font-family: "Kaisei Decol";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  /* or 133% */
 
+  color: #000000;
+}
+h6.number-one-text {
+  position: absolute;
+  width: 237px;
+  height: 92px;
+  left: 91px;
+  top: 2463px;
+}
+h6.number-two-text {
+  position: absolute;
+  width: 217px;
+  height: 92px;
+  left: 879px;
+  top: 2463px;
+}
+h6.number-three-text {
+  position: absolute;
+  width: 257px;
+  height: 132px;
+  left: 1621px;
+  top: 2463px;
+}
+p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 153% */
+
+  letter-spacing: 0.5px;
+}
+img {
+  width: 50px;
+  height: 50px;
+}
+.phone-img {
+  position: absolute;
+  left: 125px;
+  top: 811px;
+}
+p.phone {
+  position: absolute;
+  width: 105px;
+  height: 24px;
+  left: 101px;
+  top: 864px;
+}
+.navigation-img {
+  position: absolute;
+  left: 280px;
+  top: 811px;
+}
+
+p.adress {
+  position: absolute;
+  width: 160px;
+  height: 59px;
+  left: 251px;
+  top: 864px;
+}
+.clock-img {
+  position: absolute;
+  left: 480px;
+  top: 811px;
+}
+p.opening-hrs {
+  position: absolute;
+  width: 186px;
+  height: 48px;
+  left: 444px;
+  top: 865px;
 }
