@@ -247,3 +247,70 @@ h2.gallery-subtitle {
   left: 846px;
   top: 3378.07px;
 }
+
+.who-we-are,
+.when,
+.where {
+  font-family: "Kaisei Decol";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 51px;
+
+  letter-spacing: -0.24px;
+
+  color: #000000;
+}
+.who-we-are {
+  position: absolute;
+  width: 387px;
+  height: 51px;
+  left: 144px;
+  top: 4100.58px;
+}
+.when {
+  position: absolute;
+  width: 168px;
+  height: 51px;
+  left: 967px;
+  top: 4101px;
+}
+
+.where {
+  position: absolute;
+  width: 165px;
+  height: 51px;
+  left: 1690px;
+  top: 4102.58px;
+}
+.who-we-are-text {
+  position: absolute;
+  width: 297px;
+  height: 110px;
+  left: 64px;
+  top: 4222px;
+}
+.when-text {
+  position: absolute;
+  width: 225px;
+  height: 37px;
+  left: 886px;
+  top: 4222px;
+}
+.where-text {
+  position: absolute;
+  width: 211px;
+  height: 73px;
+  left: 1645px;
+  top: 4221.58px;
+}
+
+.who-we-are-text,
+.when-text,
+.where-text {
+  font-family: "Kaisei Decol";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+}
