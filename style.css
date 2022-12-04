@@ -45,7 +45,7 @@ h1 {
 
   color: #000000;
 }
-h1.how-to-order {
+h2.how-to-order-subtitle {
   position: absolute;
   width: 542px;
   height: 67px;
@@ -196,4 +196,54 @@ p.opening-hrs {
   height: 48px;
   left: 444px;
   top: 865px;
+}
+h2.gallery-subtitle {
+  position: absolute;
+  width: 287px;
+  height: 84px;
+  left: 66px;
+  top: 2737px;
+
+  font-family: "Kaisei Decol";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 51px;
+
+  letter-spacing: -0.24px;
+}
+.gallery-image-1 {
+  position: absolute;
+  width: 591.31px;
+  height: 439.88px;
+  left: 64px;
+  top: 2867.87px;
+}
+.gallery-image-2 {
+  position: absolute;
+  width: 661.59px;
+  height: 439.88px;
+  left: 701.61px;
+  top: 2867.87px;
+}
+.gallery-image-3 {
+  position: absolute;
+  width: 480.8px;
+  height: 1000.15px;
+  left: 1398.7px;
+  top: 2867.87px;
+}
+.gallery-image-4 {
+  position: absolute;
+  width: 724.39px;
+  height: 482.93px;
+  left: 64px;
+  top: 3378.07px;
+}
+.gallery-image-5 {
+  position: absolute;
+  width: 514.44px;
+  height: 484.44px;
+  left: 846px;
+  top: 3378.07px;
 }
