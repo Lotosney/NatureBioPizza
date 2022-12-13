@@ -250,7 +250,8 @@ h2.gallery-subtitle {
 
 .who-we-are,
 .when,
-.where {
+.where,
+.more-about-us-title {
   font-family: "Kaisei Decol";
   font-style: normal;
   font-weight: 400;
@@ -268,6 +269,15 @@ h2.gallery-subtitle {
   left: 144px;
   top: 4100.58px;
 }
+.who-we-are-img {
+  position: absolute;
+  left: 100px;
+  top: 4080px;
+  width: 120.52px;
+  height: 107.89px; 
+  z-index: -1;
+  
+}
 .when {
   position: absolute;
   width: 168px;
@@ -276,12 +286,28 @@ h2.gallery-subtitle {
   top: 4101px;
 }
 
+.when-img{
+  position: absolute;
+  left: 880px;
+  top: 4080px;
+  width: 108.52px;
+  height: 107.89px; 
+  z-index: -1;
+}
 .where {
   position: absolute;
   width: 165px;
   height: 51px;
   left: 1690px;
   top: 4102.58px;
+}
+.where-img{
+  position: absolute;
+  left: 1625px;
+  top: 4080px;
+  width: 108.52px;
+  height: 107.89px; 
+  z-index: -1;
 }
 .who-we-are-text {
   position: absolute;
@@ -313,4 +339,36 @@ h2.gallery-subtitle {
   font-weight: 400;
   font-size: 24px;
   line-height: 36px;
+}
+.more-about-us-title{
+  height: 103px;
+width: 650px;
+left: 64px;
+top: 4515px;
+}
+h6.more-about-us-text{
+  position: absolute;
+  height: 282px;
+width: 800px;
+left: 888px;
+top: 4632px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 32px;
+}
+.farmer{
+  position: absolute;
+width: 604.34px;
+height: 602.89px;
+left: 100.44px;
+top: 4626.11px;
+}
+.wheat{
+  position: absolute;
+width: 481.76px;
+height: 722.64px;
+left: 804px;
+top: 5008px;
 }
